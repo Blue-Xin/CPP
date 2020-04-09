@@ -29,3 +29,11 @@ int main()
     lucy->putname();
     delete lucy;
 }
+/*答案：
+杰克
+20
+1
+露西
+23
+3
+*/
