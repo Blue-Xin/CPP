@@ -26,3 +26,6 @@ int main()
     cout << func().v << endl;   
     return 0;
 }
+/*答案：
+6
+*/
