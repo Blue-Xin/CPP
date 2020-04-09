@@ -55,3 +55,5 @@ int main()
     cout << (int)d << "   ";            //可省略 (int)
     cout << (int)(--d) << endl;         //可省略 (int)
 }
+// 答案  5   6   7
+//      7   6   5
