@@ -54,3 +54,7 @@ int main()
     t2.setage();
 
 } // namespace std;
+//答案      姓名：Ren南笙
+//        年龄：12
+//        姓名：Ren南笙
+//        年龄：12
