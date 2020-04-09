@@ -33,3 +33,8 @@ int main()
     jack.setname("jack");
     cout << endl;
 }
+/*答案：
+年龄：20
+年级：1
+姓名：jack
+*/
