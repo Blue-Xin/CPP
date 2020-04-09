@@ -29,3 +29,6 @@ int main()
     cout << p << "   " << t << endl;
     printf("%p  %p\n",p,t);
 } // namespace std;
+//答案      20   10
+//        0x7ffee36b5ab0   0x7ffee36b5a98
+//        0x7ffee36b5ab0  0x7ffee36b5a98
