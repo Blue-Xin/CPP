@@ -30,3 +30,9 @@ int main()
     //person lucy=tom;//也可以写成lucy(tom);
     person jack=test(tom); 
 } // namespace srd;
+//答案   person
+//      person &p
+//      person &p
+//      ~person
+//      ~person
+//      ~person
