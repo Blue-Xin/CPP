@@ -12,7 +12,7 @@ class person
     {
         cout << "person &p" << endl;
     }
-    ~person()
+    ~person()   //析构函数
     {
         cout << "~person" << endl;
     }
@@ -27,12 +27,9 @@ person test(person p)
 int main()
 {
     person tom;
-    //person lucy=tom;//也可以写成lucy(tom);
-    person jack=test(tom); 
+    person lucy=tom;//也可以写成lucy(tom); 
 } // namespace srd;
-//答案   person
+//答案    person
 //      person &p
-//      person &p
-//      ~person
 //      ~person
 //      ~person
