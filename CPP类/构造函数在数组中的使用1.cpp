@@ -27,3 +27,17 @@ int main()
     delete []a4;
     cout << "STOP4" << endl;
 }
+/*答案：
+first
+first
+STOP1
+second
+second
+STOP2
+second
+first
+STOP3
+first
+first
+STOP4
+*/
