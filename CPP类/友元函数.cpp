@@ -11,7 +11,7 @@ class student
     {
         cout << age << endl;
     }
-    friend void print(const student &s);     //友元函数 （长得真像函数拷贝构造函数就前面多了一个friend）
+    friend void print(const student &s);     //友元函数 
     private:
     int age;
 };
@@ -26,3 +26,5 @@ int main()
     print(A);
     return 0;
 }
+//答案    20
+//      20
