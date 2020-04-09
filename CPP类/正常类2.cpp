@@ -51,4 +51,8 @@ int main()
     cout << "姓名："<< jack.Name() << endl;
     return 0;
 }
-
+/*答案：
+年龄：20
+年级：1
+姓名：jack
+*/
