@@ -1,5 +1,5 @@
 #include<iostream>
-#include<vector>   //vector是先进后出，就像一个罐子最先取到得是最上面的 
+#include<vector>   
 using namespace std;
 int main()
 {
