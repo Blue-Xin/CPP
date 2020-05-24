@@ -54,7 +54,7 @@ int main()
    list2.pop_back(); 
    //删除第一个元素 
    list2.pop_front();
-   //调用第三种语法格式，将 [list1.begin(),list1.end())范围内的元素移动到 list.begin() 位置处                  
+   //将 [list1.begin(),list1.end())范围内的元素移动到 list.begin() 位置处                  
    list2.splice(list2.begin(), list1, list1.begin(), list1.end());//list1:
    //使用反向迭代器遍历打印
    list<int> ::const_reverse_iterator t; 
