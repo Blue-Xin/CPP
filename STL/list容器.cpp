@@ -31,6 +31,8 @@ int main()
    list1.unique();
    //把list1的元素倒转
    list1.reverse(); 
+   //插入一个元素到list1中  由于list是双向链表不支持随机插入，只能从头部或者尾部插入
+   list1.insert(list1.begin(),10); 
    //使用正向迭代器遍历打印
    list<int> ::const_iterator it;   
    for(it=list1.begin();it!=list1.end();++it)
@@ -52,6 +54,8 @@ int main()
    list2.pop_back(); 
    //删除第一个元素 
    list2.pop_front();
+   //调用第三种语法格式，将 [list1.begin(),list1.end())范围内的元素移动到 list.begin() 位置处                  
+   list2.splice(list2.begin(), list1, list1.begin(), list1.end());//list1:
    //使用反向迭代器遍历打印
    list<int> ::const_reverse_iterator t; 
    for(t=list2.rbegin();t!=list2.rend();++t)
