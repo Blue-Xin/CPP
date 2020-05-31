@@ -1,4 +1,5 @@
 //不会出现重复元素 自动排序
+//set是红黑树 自动保持平衡 自动生成平衡查找树
 #include<iostream>
 #include<set>
 using namespace std;
@@ -29,6 +30,16 @@ int main()
     for(iter=b.begin();iter!=b.end();++iter)
     cout<< *iter << " ";
     cout << endl;
+    //元素查找
+    int i;
+    cout << "输入查找数字：" << endl;
+    cin >> i;
+    set<int> :: const_iterator itera;
+    itera=a.find(i);
+    if(itera==a.end())
+    cout<< "没找到";
+    else 
+    cout<< "找到了" << endl;
     //begin() 　　 返回set容器的第一个元素的地址
     //end() 　　　　 返回set容器的最后一个元素地址
     //clear() 　　 删除set容器中的所有的元素
