@@ -17,6 +17,12 @@ int main()
         cout << v << endl;
     }
     cout << endl;
+    //这是auto的第二种遍历方法，下同
+    for(auto a=myvector.begin(),b=myvector.end();a!=b;++a)
+    {
+        cout<< *a << endl;
+    }
+    cout << endl;
     deque<string> mydeque;
     mydeque.push_back("张三");
     mydeque.push_back("李四");
