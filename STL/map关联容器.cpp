@@ -9,10 +9,16 @@ int main()
     mymap.insert(pair<int , string>(101,"李同学"));//第一种
     mymap.insert(map<int , string>::value_type(102,"张同学")); // 第二种
     mymap[103]="陈同学"; // 第三种
+    //遍历第一种方法
     map<int , string> ::const_iterator it;
     for(it=mymap.begin();it!=mymap.end();++it)
     cout << it->first << " " << it->second << endl;
     cout << endl;
+    //第二种遍历auto 由于map是key->vaule 所以是用  & 指针访问 如果只有key没vaule 就不需要指针访问
+    for(auto &s: mymap)
+    cout<< s.first <<  s.second << endl;
+    cout << endl;
+    //反向遍历
     map<int , string> :: const_reverse_iterator ite;
     for(ite=mymap.rbegin();ite!=mymap.rend();++ite)
     cout << ite->first << " " << ite->second << endl;
