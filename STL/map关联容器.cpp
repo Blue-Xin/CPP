@@ -1,4 +1,5 @@
 // map   映射关系   一对一  key->vaule
+//,如果map里面插入之前的<key, value>,如果key在map里面有的话，不会覆盖之前的value,一般先判断之前有没有数据，有的话先删除，然后再去添加。
 #include<iostream>
 #include<map>
 using namespace std;
